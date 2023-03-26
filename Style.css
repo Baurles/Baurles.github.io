@@ -306,7 +306,7 @@ h1 {
 
     display: flex;
     align-items: flex-end;
-    text-align: center;
+    text-align:center;
     letter-spacing: 0.2em;
     text-transform: uppercase;
     font-feature-settings: 'pnum' on, 'lnum' on;
