@@ -471,3 +471,180 @@ p {
     color: #000000;
     order:1;
     }
+
+    .six {
+    position: relative;
+    width: 1440px;
+    height: 834px;
+    left: 0px;
+    top:-219px;
+    z-index: 0;
+    display:flex;
+    flex-direction: column;
+    
+
+    background: #423939;
+    }
+
+    .Topap {
+        z-index: 1;
+    }
+    
+    .safety {
+    margin:0px;
+    position: relative;
+    width:100 px;
+    height: 57px;
+    top:142px;
+    justify-content: end;
+    padding-right:90px;
+
+    font-family: 'Roboto Mono', monospace;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 49px;
+    line-height: 116.3%;
+    /* identical to box height, or 57px */
+
+    display: flex;
+    align-items: flex-end;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+
+    color: #7A916F;
+
+    }
+
+.fort {
+    position: relative;
+    width: 1125px;
+    height: 30px;
+    margin: 0px;
+    top:350px;
+    left:157px;
+    
+
+    font-family: 'Roboto Mono', monospace;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 125.3%;
+    /* identical to box height, or 30px */
+
+    display: flex;
+    align-items: flex-end;
+    text-align: justify;
+    letter-spacing: 0.36em;
+    text-transform: uppercase;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+
+    color: #EED1CA;
+
+}
+
+.UNTOCH {
+    position: relative;
+    width: 1125px;
+    height: 200px;
+    left: 157px;
+    top:350px;
+    margin-top: 54px;
+    
+
+    font-family: 'Roboto Mono', monospace;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 125.3%;
+    /* or 30px */
+
+    display: flex;
+    align-items: flex-end;
+    text-align: justify;
+    letter-spacing: 0.36em;
+    text-transform: uppercase;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+
+    color: #EED1CA;
+}
+
+.seven {
+    position: relative;
+    top:-219px;
+}
+
+footer{
+    height: 233px;
+    display:flex;
+}
+
+.map {
+position: relative;
+width: 907px;
+height: 42px;
+left: 33px;
+margin-bottom: 33px;
+margin-top: 94px;
+margin-right: 114px;
+
+font-family: 'Roboto Mono', monospace;
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 116.3%;
+/* or 19px */
+
+display: flex;
+align-items: flex-end;
+text-align: center;
+letter-spacing: 0.3em;
+text-transform: uppercase;
+
+color: #000000;
+
+}
+
+.lowbutton {
+    margin-top: 94px;
+    position: relative;
+    width: 342px;
+    height: 63px;
+
+}
+
+.rectangle {
+    box-sizing: border-box;
+
+position: absolute;
+width: 342px;
+height: 63px;
+
+
+
+border: 1px solid #000000;
+border-radius: 47px;
+z-index: 2;
+}
+
+.comeback {
+   
+width: 272.62px;
+height: 25.73px;
+margin-top: 15.08px;
+margin-left: 34.2px;
+font-family: 'Roboto Mono', monospace;
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 116.3%;
+/* or 19px */
+
+display: flex;
+align-items: flex-end;
+letter-spacing: 0.3em;
+text-transform: uppercase;
+
+color: #000000;
+z-index: 1;
+
+}
