@@ -1,28 +1,30 @@
 body{
     background-color: #D9D9D9;
+}
+.container {
+    width:1440px;
+    height: 7000px;
+    position: relative;
+    display:flex;
+    flex-direction: column;
     
 }
-a {
-    text-decoration: none;
+.wrap {
+    width: 1440px;
+    height: 100px;
+    margin-top:53px;
+    margin-left: 45px;
+    
 }
 
-h1 {
-    text-decoration: none;
+.wrap-flex {
+    display: flex;
+    justify-content: space-between;
+   
 }
-
-h2 {
-    text-decoration: none;
-}
-
 
 .logo {
-    position: absolute;
-    width: 210px;
-    height: 49px;
-    left: 0px;
-    top: 0px;
-    
-    font-family: 'Roboto', monospace;
+    font-family: 'Roboto Mono', monospace;
     font-style: normal;
     font-weight: 400;
     font-size: 48px;
@@ -35,15 +37,14 @@ h2 {
     text-transform: capitalize;
     
     color: #000000;
+   
+}
+
+a {
+    text-decoration: none;
 }
 
 .group {
-    position: absolute;
-    width: 73px;
-    height: 15.11px;
-    left: 143px;
-    top: 50px;
-    
     font-family: 'Roboto Mono', monospace;
     font-style: normal;
     font-weight: 400;
@@ -57,68 +58,48 @@ h2 {
     text-transform: uppercase;
     
     color: #423939;
+    margin-left: 161px;
+    margin-top:5px
+    
+}
+p {
+    margin:0px;
 }
 
-.head {
-    display: inline;
-    flex-direction: column;
-    align-items: flex-end;
-    padding: 0px;
-    gap: 4px;
 
-    position: absolute;
-    width: 210px;
-    height: 68px;
-    left: 36px;
-    top: 41px;
-
-}
-
-.phone{
-   
+.callme {
+    width: 270px;
+    height: 32px;
     font-family: 'Roboto Mono', monospace;
     font-style: normal;
     font-weight: 400;
-    font-size: 24px;
+    font-size: 21px;
     line-height: 116.3%;
     /* or 28px */
 
-    display: inline;
+    display: flex;
     align-items: flex-end;
     letter-spacing: 0.2em;
     text-transform: capitalize;
-
+    margin-top:21px;
+    
     color: #000000;
-
-}
-.callme {
-    position: absolute;
-    height: 32px;
-    left: 350px;
-    top: 74px;
-
-   
-}
-.container {
-    position: absolute;
-    width: 1440px;
-    height: 169px;
-    left: 2px;
-    top: 0px;
-
-    background: #D9D9D9;
 }
 
-.adress {
+.phone {
+    color: #000000;
+}
+
+.Topmenu {
     display: flex;
     flex-direction: row;
     align-items: flex-start;
     padding: 0px;
     gap: 30px;
-
-    position: absolute;
-    width: 500px;
-    height: 16px;
+    margin-right: 47px;
+    margin-top:22px;
+    justify-content: space-between;
+ 
 
 }
 
@@ -126,7 +107,7 @@ h2 {
     width: 128px;
     height: 16px;
 
-    font-family: 'Lack';
+    font-family: 'Roboto Mono', monospace;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -140,7 +121,7 @@ h2 {
     font-feature-settings: 'pnum' on, 'lnum' on;
 
     color: #423939;
-
+    margin-top: 12px;
 
     /* Inside auto layout */
 
@@ -153,7 +134,7 @@ h2 {
     width: 174px;
     height: 16px;
 
-    font-family: 'Lack';
+    font-family: 'Roboto Mono', monospace;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -165,8 +146,9 @@ h2 {
     letter-spacing: 0.2em;
     text-transform: uppercase;
     font-feature-settings: 'pnum' on, 'lnum' on;
-
+    margin-top: 12px;
     color: #423939;
+ 
 
 
     /* Inside auto layout */
@@ -175,12 +157,11 @@ h2 {
     order: 1;
     flex-grow: 0;
 }
-
 .call {
     width: 128px;
     height: 16px;
-
-    font-family: 'Lack';
+    margin-top: 12px;
+    font-family: 'Roboto Mono', monospace;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -203,106 +184,95 @@ h2 {
     flex-grow: 0;
 }
 
-nav {
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    padding: 0px;
-    gap: 30px;
-
-    position: absolute;
-    width: 500px;
-    height: 16px;
-    left: 735px;
-    top: 82px;
-}
-
 .micromenu {
     display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    padding: 0px;
-    gap: 10px;
-
-    position: absolute;
+    align-items: flex-end;
     width: 52px;
     height: 41px;
-    left: 601px;
-    top: -20px;
+    flex: none;
+    order: 3;
+    flex-grow: 0;
+    
 }
 
 .g1 {
-    position: absolute;
     width: 38px;
     height: 0px;
-    left: 6px;
-    top: 10px;
 
     border: 2px solid #000000;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin-bottom: 11px;
 }
-
 .g2 {
-    position: absolute;
     width: 38px;
     height: 0px;
-    left: 6px;
-    top: 20px;
-
+    
     border: 2px solid #000000;
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin-bottom: 11px;
 }
 
 .g3 {
-    position: absolute;
     width: 26px;
     height: 0px;
-    left: 6px;
-    top: 30px;
-
+    
     border: 2px solid #000000;
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+    margin-bottom: 11px;
 }
 
 .paint-first {
-    box-sizing: border-box;
-
-    position: absolute;
+    display:inline-flex;
     width: 1440px;
-    height: 950px;
-    left: 0px;
-    top: 140px;
-
-    background: url(rick-rothenberg-f58OLKKTODo-unsplash.jpg);
-    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    height: 960px;
 }
+
 h1 {
     position: absolute;
     width: 393px;
     height: 19px;
-    left: 522px;
-    top: 169px;
-
+    margin-top: 169px;
+    margin-left: 522px;
+    
     font-family: 'Lack';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 116.3%;
     /* identical to box height, or 19px */
-
+    
     display: flex;
     align-items: flex-end;
     text-align: center;
     letter-spacing: 0.2em;
     text-transform: uppercase;
     font-feature-settings: 'pnum' on, 'lnum' on;
-
+   
+    
     color: #D6A398;
 }
 
 .geo {
     position: absolute;
-    width: 1006px;
+    width: 1066px;
     height: 79px;
-    left: 289px;
-    top: 206px;
+    margin-top: 206px;
+    margin-left: 189px;
 
     font-family: 'Ledger';
     font-style: normal;
@@ -319,17 +289,15 @@ h1 {
     font-feature-settings: 'pnum' on, 'lnum' on;
 
     color: #FFE6D9;
-
 }
-
-.apart {
+.apart{
     position: absolute;
     width: 677px;
     height: 73px;
-    left: 735px;
-    top: 800px;
+    margin-top:801px;
+    margin-left: 665px; 
 
-    font-family: 'Roboto Mono', monospace;
+    font-family: 'Roboto Mono', monospace';
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
@@ -345,87 +313,161 @@ h1 {
 
     color: #FFFFFF;
 }
-
-.after-first-background {
-    position: absolute;
+.after-first{
+    display:inline-flex;
     width: 1440px;
-    height: 770px;
-
-
+    height: 960px;
     background: #D7CDC8;
+    
 }
 
 .after-first-text {
-    position: absolute;
-    width: 948px;
-    height: 96px;
-    left: 246px;
-    top: 319px;
 
-    font-family: 'Lack';
+width: 948px;
+height: 96px;
+margin-top: 400px;
+margin-left: 246px;
+
+font-family:'Roboto Mono', monospace'';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 152.3%;
+/* or 24px */
+
+display: flex;
+align-items: flex-end;
+text-align: center;
+letter-spacing: 0.22em;
+text-transform: uppercase;
+font-feature-settings: 'pnum' on, 'lnum' on;
+
+color: #000000;
+}
+
+.third {
+    display:inline-flex;
+
+}
+
+.thrint {
+    margin-left: 100px;
+    margin-top:212px;
+    margin-bottom: 0px;
+    width: 522px;
+    height: 30px;
+
+
+    font-family: 'Roboto Mono', monospace';
     font-style: normal;
     font-weight: 400;
-    font-size: 16px;
-    line-height: 152.3%;
-    /* or 24px */
+    font-size: 24px;
+    line-height: 125.3%;
+    /* identical to box height, or 30px */
 
     display: flex;
     align-items: flex-end;
-    text-align: center;
-    letter-spacing: 0.22em;
+    text-align: justify;
+    letter-spacing: 0.36em;
     text-transform: uppercase;
     font-feature-settings: 'pnum' on, 'lnum' on;
 
     color: #000000;
 }
-.after-first{
-    position: absolute;
-    width: 1440px;
-    height: 770px;
-    left: 0px;
-    top: 1092px;
-}
-.third {
-    position: absolute;
-    width: 1440px;
-    height: 886px;
-    left: 0;
-    top: 1862px;
-}
-
-.inter {
-    position: absolute;
-    width: 720px;
-    height: 886px;
-    left: 720px;
-   
-
-    background: url(ali-moradi-Je1_Y3jYy50-unsplash.jpg);
-}
-
-.interrr {
-    position: absolute;
-    width: 720px;
-    height: 886px;
-    left: 720px;
-    top: 0px;
-       background: url(ali-moradi-Je1_Y3jYy50-unsplash.jpg);
+p {
+    margin 0px;
 }
 
 .third-backgroundcolor {
-    width: 1440px;
-    height: 886px;
-    left: 0;
-    top: 1862px;
-    color: white;
+    display:flex;
+    flex-direction: column;
+    background: white;
 }
 
+.IntText {
+    margin-top: 53px;
+    margin-left:100px;
+    margin-right: 33px;
+    font-family: 'Roboto Mono', monospace';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 125.3%;
+    /* or 30px */
+
+    display: flex;
+    align-items: flex-end;
+    text-align: justify;
+    letter-spacing: 0.36em;
+    text-transform: uppercase;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+
+    color: #000000;
+
+}
 .fourth {
-    position: absolute;
-    width: 1440px;
-    height: 800px;
-    left: 0px;
-    top: 2748px;
-
-    background: url(alona-gross-fOOiq_Q950E-unsplash.jpg);
+    display:inline-flex;
+    
 }
+.five {
+    display:flex;
+}
+.five-background {
+    display:flex;
+    flex-direction: column;
+    background: white;
+    order:1;
+    height: 618px;
+}
+
+.fiveint {
+    margin-top: 112px;
+    margin-left:60px;
+    margin-right: 112px;
+    margin-bottom: 0px;
+    width: 587px;
+    height: 60px;
+    left: 741px;
+    top: 3660px;
+
+    font-family: 'Roboto Mono', monospace';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 125.3%;
+    /* or 30px */
+
+    display: flex;
+    align-items: flex-end;
+    text-align: justify;
+    letter-spacing: 0.36em;
+    text-transform: uppercase;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    order:0;
+}
+
+.rezi {
+    margin-top: 44px;
+    margin-left: 60px;
+    margin-right: 112px;
+    width: 587px;
+    height: 214px;
+
+
+    font-family: 'Roboto Mono', monospace';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 125.3%;
+    /* or 30px */
+
+
+    align-items: flex-end;
+    text-align: justify;
+    letter-spacing: 0.36em;
+    text-transform: uppercase;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+
+    color: #000000;
+    order:1;
+    }
